@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delícias Gourmet</title>
+    <!-- Inclui a biblioteca Tailwind CSS para estilização -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Inclui a fonte Inter do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilo base para o corpo do site */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #ffe4e6;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+    <!-- Cabeçalho do site -->
+    <header class="bg-white shadow-lg p-6 rounded-b-3xl">
+        <nav class="flex justify-between items-center max-w-7xl mx-auto">
+            <h1 class="text-3xl font-bold text-pink-600">Delícias Gourmet</h1>
+            <div class="flex items-center space-x-4">
+                <a href="#sabores" class="text-pink-600 hover:text-pink-800 font-semibold transition-colors duration-300">Sabores</a>
+                <a href="#contato" class="bg-pink-600 text-white px-4 py-2 rounded-full hover:bg-pink-700 transition-colors duration-300 shadow-md">Encomendar</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main class="py-12 px-6">
+        <!-- Seção de destaque (Hero) -->
+        <section class="text-center mb-16">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="text-4xl md:text-5xl font-extrabold text-pink-800 mb-4 leading-tight">Delicie-se com Nossas Criações</h2>
+                <p class="text-xl text-gray-600 mb-6">Feitos com os melhores ingredientes, nossos brigadeiros e trufas são a escolha perfeita para qualquer ocasião. Deixe seu dia mais doce!</p>
+                <div class="flex justify-center space-x-4">
+                    <a href="#brigadeiros" class="bg-pink-600 text-white font-bold px-8 py-3 rounded-full hover:bg-pink-700 transition-transform transform hover:scale-105 shadow-lg">Brigadeiros</a>
+                    <a href="#trufas" class="bg-gray-100 text-pink-600 font-bold px-8 py-3 rounded-full hover:bg-gray-200 transition-transform transform hover:scale-105 shadow-lg">Trufas</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Sabores -->
+        <section id="sabores" class="max-w-5xl mx-auto mb-16">
+            <h3 class="text-3xl font-bold text-center text-pink-800 mb-8">Nossos Sabores</h3>
+            
+            <!-- Seção de Brigadeiros -->
+            <div id="brigadeiros" class="bg-white p-8 rounded-3xl shadow-xl mb-12">
+                <h4 class="text-2xl font-bold text-pink-700 mb-6 border-b-2 border-pink-200 pb-2">Brigadeiros Gourmet</h4>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                    <!-- Itens de brigadeiro -->
+                    <div class="bg-gray-50 p-6 rounded-2xl text-center shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <img src="https://placehold.co/150x150/fecaca/fff?text=Dois+Amores" alt="Brigadeiro Dois Amores" class="mx-auto rounded-full mb-4">
+                        <p class="font-semibold text-lg text-gray-900">Dois Amores</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-2xl text-center shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <img src="https://placehold.co/150x150/7c2d12/fff?text=Tradicional" alt="Brigadeiro Chocolate Tradicional" class="mx-auto rounded-full mb-4">
+                        <p class="font-semibold text-lg text-gray-900">Chocolate Tradicional</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-2xl text-center shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <img src="https://placehold.co/150x150/4b5563/fff?text=Colorido" alt="Brigadeiro Chocolate Granulado Colorido" class="mx-auto rounded-full mb-4">
+                        <p class="font-semibold text-lg text-gray-900">Granulado Colorido</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-2xl text-center shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <img src="https://placehold.co/150x150/fef3c7/fff?text=Ninho" alt="Brigadeiro Ninho" class="mx-auto rounded-full mb-4">
+                        <p class="font-semibold text-lg text-gray-900">Ninho</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-2xl text-center shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <img src="https://placehold.co/150x150/fef3c7/4b5563?text=Ninho+Colorido" alt="Brigadeiro Ninho com Granulado Colorido" class="mx-auto rounded-full mb-4">
+                        <p class="font-semibold text-lg text-gray-900">Ninho com Granulado Colorido</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-2xl text-center shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <img src="https://placehold.co/150x150/f5f5f5/fff?text=Beijinho" alt="Brigadeiro Beijinho" class="mx-auto rounded-full mb-4">
+                        <p class="font-semibold text-lg text-gray-900">Beijinho</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Seção de Trufas -->
+            <div id="trufas" class="bg-white p-8 rounded-3xl shadow-xl">
+                <h4 class="text-2xl font-bold text-pink-700 mb-6 border-b-2 border-pink-200 pb-2">Trufas Tradicionais</h4>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                    <!-- Itens de trufa -->
+                    <div class="bg-gray-50 p-6 rounded-2xl text-center shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <img src="https://placehold.co/150x150/663300/fff?text=Nutella" alt="Trufa Nutella" class="mx-auto rounded-full mb-4">
+                        <p class="font-semibold text-lg text-gray-900">Nutella</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-2xl text-center shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <img src="https://placehold.co/150x150/d4ac00/fff?text=Nutella+Branca" alt="Trufa Nutella com Chocolate Branco" class="mx-auto rounded-full mb-4">
+                        <p class="font-semibold text-lg text-gray-900">Nutella com Chocolate Branco</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-2xl text-center shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <img src="https://placehold.co/150x150/a5d6a7/fff?text=Limão" alt="Trufa Limão" class="mx-auto rounded-full mb-4">
+                        <p class="font-semibold text-lg text-gray-900">Limão</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-2xl text-center shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <img src="https://placehold.co/150x150/fef3c7/fff?text=Ninho" alt="Trufa Ninho" class="mx-auto rounded-full mb-4">
+                        <p class="font-semibold text-lg text-gray-900">Ninho</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-2xl text-center shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <img src="https://placehold.co/150x150/ffc300/fff?text=Maracujá" alt="Trufa Maracujá" class="mx-auto rounded-full mb-4">
+                        <p class="font-semibold text-lg text-gray-900">Maracujá</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-2xl text-center shadow-md hover:shadow-lg transition-shadow duration-300">
+                        <img src="https://placehold.co/150x150/e5e5e5/fff?text=Ouro+Branco" alt="Trufa Ouro Branco" class="mx-auto rounded-full mb-4">
+                        <p class="font-semibold text-lg text-gray-900">Ouro Branco</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer id="contato" class="bg-pink-600 text-white p-8 text-center rounded-t-3xl">
+        <h4 class="text-2xl font-bold mb-4">Faça sua Encomenda!</h4>
+        <p class="text-lg mb-6">Entre em contato para orçamentos e pedidos. Estamos prontos para adoçar o seu evento!</p>
+        <div class="flex justify-center space-x-6">
+            <!-- Link do WhatsApp corrigido com o número de telefone sem espaços -->
+            <a href="https://wa.me/5511989889964" target="_blank" class="text-lg hover:underline">WhatsApp</a>
+            <a href="#" class="text-lg hover:underline">Instagram</a>
+            <a href="#" class="text-lg hover:underline">E-mail</a>
+        </div>
+        <p class="mt-8 text-sm opacity-75">&copy; 2023 Delícias Gourmet. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
+
